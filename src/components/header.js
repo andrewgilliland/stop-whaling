@@ -1,28 +1,14 @@
-import { graphql, useStaticQuery, Link } from "gatsby";
+import { Link } from "gatsby";
 import React from "react";
 
 function Header() {
-  const { site } = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
-
   return (
     <header className="bg-blue-700">
-      <div className="flex flex-wrap items-center justify-center max-w-4xl p-4 mx-auto md:p-8">
+      <div className="flex flex-wrap items-center justify-center max-w-4xl p-2 mx-auto md:p-4">
         <Link to="/">
-          <h1 className="flex items-center text-white no-underline">
-            <span>🐋</span>
-            <span className="text-xl font-bold tracking-tight">
-              {site.siteMetadata.title}
-            </span>
-            <span>🐋</span>
-          </h1>
+          <span>🐋</span>
+          <span>🐋</span>
+          <span>🐋</span>
         </Link>
       </div>
     </header>

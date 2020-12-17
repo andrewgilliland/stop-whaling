@@ -44,10 +44,10 @@ function IndexPage({ data }) {
             Hello Whales
           </H2>
           <Copy>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
-            incidunt corrupti esse ullam, possimus doloremque consectetur saepe
-            reprehenderit soluta, alias, eos assumenda explicabo veritatis
-            laboriosam modi amet aliquid tempore! Voluptate!
+            Commerical whaling was banned in 1986, yet Norway, Japan, and
+            Iceland continue to hunt whales. All of those countries combined
+            kill 40,000 big whales and 100,000 small whales, dolpins and
+            porpoises a year.
           </Copy>
         </Container>
       </SectionDark>
@@ -55,13 +55,12 @@ function IndexPage({ data }) {
       <SectionBlue>
         <Container>
           <H2 className="text-xl font-semibold uppercase tracking-wide">
-            Hello Whales
+            Other Organisms Affected
           </H2>
           <Copy>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
-            incidunt corrupti esse ullam, possimus doloremque consectetur saepe
-            reprehenderit soluta, alias, eos assumenda explicabo veritatis
-            laboriosam modi amet aliquid tempore! Voluptate!
+            When whales are killed it affects the food chain and can cause
+            overpopulation in those species. That includes shrimp, krill, and
+            small fish.
           </Copy>
         </Container>
       </SectionBlue>
@@ -69,13 +68,35 @@ function IndexPage({ data }) {
       <SectionDark>
         <Container>
           <H2 className="text-xl font-semibold uppercase tracking-wide">
-            Hello Whales
+            The Pros and Cons of Whaling
           </H2>
           <Copy>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
-            incidunt corrupti esse ullam, possimus doloremque consectetur saepe
-            reprehenderit soluta, alias, eos assumenda explicabo veritatis
-            laboriosam modi amet aliquid tempore! Voluptate!
+            Pro: People continue to hunt whales for their meat and oil.
+          </Copy>
+          <Copy>
+            Con: Whales are being hunted in an inhuman way. There are many ways
+            to get meat and oil without the hunting of whales.
+          </Copy>
+        </Container>
+      </SectionDark>
+
+      <SectionBlue>
+        <Container>
+          <H2>Where Whaling is Taking Place?</H2>
+          <Copy>
+            Whales are being hunted in Japan, Norway, and Iceland even though
+            there was a ban in 1986.
+          </Copy>
+        </Container>
+      </SectionBlue>
+
+      <SectionDark>
+        <Container>
+          <H2>What is being done to stop whaling?</H2>
+          <Copy>
+            The WDC (Whale and Dolphin Conservation) is telling Icelandic
+            tourists about the harm of whaling. A decade ago, 40% of tourists
+            sampled whale meat. Today, only 12% of tourists sampled the meat.
           </Copy>
         </Container>
       </SectionDark>

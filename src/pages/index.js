@@ -10,6 +10,8 @@ import H2 from "../components/H2";
 import Copy from "../components/Copy";
 import SEO from "../components/seo";
 import humpbackWhale from "../images/humpback-whale.jpg";
+import whaleData from "../images/whales-data.jpg";
+import seiWhale from "../images/sei-whale.jpg";
 
 function IndexPage({ data }) {
   const title = data.site.siteMetadata.title;
@@ -40,9 +42,8 @@ function IndexPage({ data }) {
 
       <SectionDark>
         <Container>
-          <H2 className="text-xl font-semibold uppercase tracking-wide">
-            Hello Whales
-          </H2>
+          <img className="rounded-lg" src={whaleData} alt="Whaling chart" />
+          
           <Copy>
             Commerical whaling was banned in 1986, yet Norway, Japan, and
             Iceland continue to hunt whales. All of those countries combined
@@ -82,6 +83,7 @@ function IndexPage({ data }) {
 
       <SectionBlue>
         <Container>
+        <img className="rounded-lg shadow-lg mb-5" src={seiWhale} alt="Sei Whale" />
           <H2>Where Whaling is Taking Place?</H2>
           <Copy>
             Whales are being hunted in Japan, Norway, and Iceland even though

@@ -75,7 +75,7 @@ function IndexPage({ data }) {
             Pro: People continue to hunt whales for their meat and oil.
           </Copy>
           <Copy>
-            Con: Whales are being hunted in an inhuman way. There are many ways
+            Con: Whales are being hunted in an inhumane way. There are many ways
             to get meat and oil without the hunting of whales.
           </Copy>
         </Container>

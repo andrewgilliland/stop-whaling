@@ -43,7 +43,7 @@ function IndexPage({ data }) {
       <SectionDark>
         <Container>
           <img className="rounded-lg" src={whaleData} alt="Whaling chart" />
-          
+
           <Copy>
             Commerical whaling was banned in 1986, yet Norway, Japan, and
             Iceland continue to hunt whales. All of those countries combined
@@ -83,7 +83,11 @@ function IndexPage({ data }) {
 
       <SectionBlue>
         <Container>
-        <img className="rounded-lg shadow-lg mb-5" src={seiWhale} alt="Sei Whale" />
+          <img
+            className="rounded-lg shadow-lg mb-5"
+            src={seiWhale}
+            alt="Sei Whale"
+          />
           <H2>Where Whaling is Taking Place?</H2>
           <Copy>
             Whales are being hunted in Japan, Norway, and Iceland even though
@@ -102,6 +106,34 @@ function IndexPage({ data }) {
           </Copy>
         </Container>
       </SectionDark>
+
+      <section className="bg-gray-900">
+        <Container>
+          <h3 className="text-xl">Resources</h3>
+          <ul className="mt-5">
+            <li className="duration-300 hover:text-gray-400">
+              <a href="https://www.britannica.com/topic/whaling">
+                https://www.britannica.com/topic/whaling
+              </a>
+            </li>
+            <li className="mt-3 duration-300 hover:text-gray-400">
+              <a href="https://us.whales.org/our-4-goals/stop-whaling/">
+                https://us.whales.org/our-4-goals/stop-whaling/
+              </a>
+            </li>
+            <li className="mt-3 duration-300 hover:text-gray-400">
+              <a href="https://wwf.panda.org/discover/knowledge_hub/endangered_species/cetaceans/threats/whaling/">
+                https://wwf.panda.org/discover/knowledge_hub/endangered_species/cetaceans/threats/whaling/
+              </a>
+            </li>
+            <li className="mt-3 duration-300 hover:text-gray-400">
+              <a href="https://www.nationalgeographic.org/encyclopedia/food-chain/">
+                https://www.nationalgeographic.org/encyclopedia/food-chain/
+              </a>
+            </li>
+          </ul>
+        </Container>
+      </section>
     </Layout>
   );
 }

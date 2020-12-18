@@ -113,22 +113,22 @@ function IndexPage({ data }) {
           <ul className="mt-5">
             <li className="duration-300 hover:text-gray-400">
               <a href="https://www.britannica.com/topic/whaling">
-                https://www.britannica.com/topic/whaling
+                https://www.britannica.com/
               </a>
             </li>
             <li className="mt-3 duration-300 hover:text-gray-400">
               <a href="https://us.whales.org/our-4-goals/stop-whaling/">
-                https://us.whales.org/our-4-goals/stop-whaling/
+                https://us.whales.org/
               </a>
             </li>
             <li className="mt-3 duration-300 hover:text-gray-400">
               <a href="https://wwf.panda.org/discover/knowledge_hub/endangered_species/cetaceans/threats/whaling/">
-                https://wwf.panda.org/discover/knowledge_hub/
+                https://wwf.panda.org/
               </a>
             </li>
             <li className="mt-3 duration-300 hover:text-gray-400">
               <a href="https://www.nationalgeographic.org/encyclopedia/food-chain/">
-                https://www.nationalgeographic.org/encyclopedia/food-chain/
+                https://www.nationalgeographic.org/
               </a>
             </li>
           </ul>

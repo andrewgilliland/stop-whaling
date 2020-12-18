@@ -123,7 +123,7 @@ function IndexPage({ data }) {
             </li>
             <li className="mt-3 duration-300 hover:text-gray-400">
               <a href="https://wwf.panda.org/discover/knowledge_hub/endangered_species/cetaceans/threats/whaling/">
-                https://wwf.panda.org/discover/knowledge_hub/endangered_species/cetaceans/threats/whaling/
+                https://wwf.panda.org/discover/knowledge_hub/
               </a>
             </li>
             <li className="mt-3 duration-300 hover:text-gray-400">
